@@ -3,7 +3,7 @@ pipeline {
     node {
       label 'RCTUbtSlave01'
     }
-    
+
   }
   stages {
     stage('Build') {
@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh 'echo test'
+        sh 'echo test1'
       }
     }
   }
